@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVER Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-top">
+                <div class="header-left">
+                    <button class="icon-btn"><i class="fa-solid fa-bars"></i></button>
+                    <span class="pay-icon"><i class="fa-solid fa-p"></i>ay</span>
+                </div>
+                <div class="header-right">
+                    <button class="icon-btn"><i class="fa-regular fa-bell"></i></button>
+                    <button class="icon-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+            
+            <div class="search-area">
+                <div class="search-box">
+                    <span class="naver-logo">N</span>
+                    <input type="text" class="search-input" placeholder="검색어를 입력하세요.">
+                    <div class="search-icons">
+                        <button class="keyboard-btn"><i class="fa-regular fa-keyboard"></i></button>
+                        <button class="ai-btn"><i class="fa-solid fa-microchip"></i> AI</button>
+                        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="shortcut-nav">
+                <ul>
+                    <li><a href="#"><div class="icon-circle mail"><i class="fa-regular fa-envelope"></i></div><span>메일</span></a></li>
+                    <li><a href="#"><div class="icon-circle cafe"><i class="fa-solid fa-mug-hot"></i></div><span>카페</span></a></li>
+                    <li><a href="#"><div class="icon-circle blog"><i class="fa-solid fa-blog"></i></div><span>블로그</span></a></li>
+                    <li><a href="#"><div class="icon-circle shopping"><i class="fa-solid fa-bag-shopping"></i></div><span>쇼핑</span></a></li>
+                    <li><a href="#"><div class="icon-circle news"><i class="fa-regular fa-newspaper"></i></div><span>뉴스</span></a></li>
+                    <li><a href="#"><div class="icon-circle stock"><i class="fa-solid fa-chart-line"></i></div><span>증권</span></a></li>
+                    <li><a href="#"><div class="icon-circle realestate"><i class="fa-solid fa-house"></i></div><span>부동산</span></a></li>
+                    <li><a href="#"><div class="icon-circle map"><i class="fa-solid fa-map-location-dot"></i></div><span>지도</span></a></li>
+                    <li><a href="#"><div class="icon-circle webtoon"><i class="fa-solid fa-book-open"></i></div><span>웹툰</span></a></li>
+                    <li><a href="#"><div class="icon-circle more"><i class="fa-solid fa-ellipsis"></i></div><span>...</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="left-column">
+            <div class="banner-ad">
+                <img src="https://via.placeholder.com/800x150/1e0a3c/ffffff?text=EMS+조각+괄사+이벤트" alt="광고 배너">
+            </div>
+            
+            <section class="news-stand">
+                <div class="news-header">
+                    <div class="news-title">
+                        <h3>뉴스스탠드</h3>
+                        <span class="divider"></span>
+                        <a href="#">언론사편집</a>
+                        <span class="divider"></span>
+                        <a href="#">엔터</a>
+                        <span class="divider"></span>
+                        <a href="#">스포츠</a>
+                    </div>
+                </div>
+                
+                <div class="news-tabs">
+                    <div class="tabs-left">
+                        <button class="active">전체언론사 <i class="fa-solid fa-chevron-down"></i></button>
+                        <span class="divider"></span>
+                        <a href="#" class="news-ticker">연합뉴스 · 73년만에 지방정부도 노동감독...</a>
+                    </div>
+                    <div class="tabs-right">
+                        <a href="#">뉴스스탠드</a>
+                        <a href="#">뉴스홈</a>
+                    </div>
+                </div>
+
+                <div class="news-grid">
+                    <div class="news-item"><span class="news-logo chosun">스포츠조선</span></div>
+                    <div class="news-item"><span class="news-logo dailian">데일리안</span></div>
+                    <div class="news-item"><span class="news-logo channela">Channel A</span></div>
+                    <div class="news-item"><span class="news-logo ohmynews">Ohmynews</span></div>
+                    <div class="news-item"><span class="news-logo kyunghyang">경향신문</span></div>
+                    <div class="news-item"><span class="news-logo mk">매일경제</span></div>
+                    
+                    <div class="news-item"><span class="news-logo pressian">프레시안</span></div>
+                    <div class="news-item"><span class="news-logo sisain">시사IN</span></div>
+                    <div class="news-item"><span class="news-logo kbs">KBS NEWS</span></div>
+                    <div class="news-item"><span class="news-logo daegu">대구일보</span></div>
+                    <div class="news-item"><span class="news-logo gyeongbuk">경북도민일보</span></div>
+                    <div class="news-item"><span class="news-logo yeongnam">영남일보</span></div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="right-column">
+            <div class="login-widget">
+                <p class="login-msg">네이버를 더 안전하고 편리하게 이용하세요</p>
+                <button class="login-btn"><span class="naver-logo-small">N</span> NAVER 로그인</button>
+                <div class="login-links">
+                    <a href="#">아이디 찾기</a>
+                    <a href="#">비밀번호 찾기</a>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+            
+            <div class="side-widget ad-widget">
+                <p class="ad-title">커져가는 종양이 버거운 13살 채원이</p>
+                <img src="https://via.placeholder.com/350x200/e0e0e0/333333?text=밀알복지재단" alt="캠페인 이미지">
+            </div>
+        </div>
+    </main>
+
+    <div class="whale-popup">
+        <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <div class="popup-content">
+            <div class="whale-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="popup-text">
+                <h4>안전한 브라우저 설정하기</h4>
+                <p>나의 개인정보를 보호하는 웨일 브라우저를 지금 설치하세요</p>
+            </div>
+        </div>
+        <button class="download-btn">웨일 다운로드</button>
+    </div>
+    <script>
+        document.querySelector('.close-btn').addEventListener('click', function() {
+            document.querySelector('.whale-popup').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
